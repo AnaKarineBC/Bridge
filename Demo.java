@@ -1,3 +1,9 @@
+import devices.Radio;
+import remotes.AdvancedRemote;
+import remotes.BasicRemote;
+import devices.Device;
+import devices.Tv;
+
 public class Demo {
     public static void main(String[] args) {
         testDevice(new Tv());
@@ -7,6 +13,7 @@ public class Demo {
     public static void testDevice(Device device) {
         System.out.println("Tests with basic remote.");
         BasicRemote basicRemote = new BasicRemote(device);
+
         basicRemote.power();
         device.printStatus();
 

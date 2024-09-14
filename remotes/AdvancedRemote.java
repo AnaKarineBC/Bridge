@@ -1,5 +1,7 @@
 package remotes;
 
+import devices.Device;
+
 public class AdvancedRemote extends BasicRemote {
 
     public AdvancedRemote(Device device) {

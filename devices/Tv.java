@@ -1,3 +1,6 @@
+package devices;
+import devices.Device;
+
 public class Tv implements Device {
     private boolean on = false;
     private int volume = 30;

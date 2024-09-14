@@ -1,5 +1,7 @@
 package remotes;
 
+import devices.Device;
+
 public class BasicRemote implements Remote {
     protected Device device;
 
